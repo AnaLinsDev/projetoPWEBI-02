@@ -1,4 +1,5 @@
-<body>
+
+  <mat-card>
 <mat-card-title><p>{{titulo}}</p></mat-card-title>
 
 <mat-card-content >
@@ -34,7 +35,7 @@
 </mat-card-footer>
 
 <br />
-
+  </mat-card>
 <mat-card *ngFor="let usuario of usuarios" class="mat-card-simples">
   <mat-card-header>
     <mat-card-title><mat-icon>person</mat-icon>{{usuario.nome}}</mat-card-title>
@@ -47,4 +48,3 @@
     blaBlablabla bla
   </mat-card-content>
 </mat-card>
-</body>

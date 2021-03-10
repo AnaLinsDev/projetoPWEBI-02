@@ -1,7 +1,13 @@
 .mat-card-simples {
   max-width: 300px;
-  background-color: rgb(188, 112, 224);
+  background-color: rgb(203, 143, 231);
   margin-top: 10px;
+}
+
+.mat-card{
+  background-color: rgb(201, 144, 228);
+  margin: 15px;
+  margin-top: 0;
 }
 
 .mat-form-principal {
@@ -15,13 +21,10 @@
 
 .mat-card-footer {
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .mat-card-title {
   margin-top: 10px;
   margin-left: 10px;
-}
-
-body {
-  background-color: rgb(204, 196, 238);
 }
